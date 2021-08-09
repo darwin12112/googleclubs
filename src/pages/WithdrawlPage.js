@@ -28,7 +28,7 @@ const WithdrawlPage = (props) => {
       setAddBank(true);
       return;
     }
-    if (amount >= 530) {
+    if (amount >= 250) {
       (async () => {
         const response = await fetch("/api/withdrawl", {
           "method": "POST",
@@ -50,7 +50,7 @@ const WithdrawlPage = (props) => {
           setErrorMessage(data.error);
       })();
     } else {
-      setErrorMessage("Only more than ₹ 530 allowed!");
+      setErrorMessage("Only more than ₹ 250 allowed!");
     }
 
   };
