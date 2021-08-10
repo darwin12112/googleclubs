@@ -478,9 +478,9 @@ exports.getResponseRecharge = async (req, res, next) => {
       user.financials.push(financial);
       await user.save();
       let bonus1=0;
-       if (recharge.money >= 100) bonus1 = 100;
-      else if (recharge.money >= 200) bonus1 = 100;
-      else if (recharge.money >= 500) bonus1 = 300;
+       if (recharge.money >= 200) bonus1 = 100;
+      else if (recharge.money >= 400) bonus1 = 150;
+      else if (recharge.money >= 500) bonus1 = 200;
       else if (recharge.money >= 1500) bonus1 = 500;
       else if (recharge.money >= 5000) bonus1 = 3000;
       else if (recharge.money >= 10000) bonus1 = 5000;
