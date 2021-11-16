@@ -153,7 +153,7 @@ class MainLayout extends React.Component {
            
               
             
-          <a href="https://t.me/googleclubsin" className="btn btn-primary telegram"><FaTelegram /> </a>
+          <a href="https://t.me/shoptradersup" className="btn btn-primary telegram"><FaTelegram /> </a>
           {children}
           <Footer />
         </Content>
