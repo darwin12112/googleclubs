@@ -58,7 +58,7 @@ const PromotionPage = (props) => {
   }, [tab]);
   const copyLink = () => {
     const tmp_tag = document.createElement("input");
-    tmp_tag.value = `https://www.shoptraders.in/signup/${bonus.ref_code}`;
+    tmp_tag.value = `https://www.lotterymall247.com/signup/${bonus.ref_code}`;
     document.body.appendChild(tmp_tag);
     tmp_tag.select();
     document.execCommand("copy");
@@ -136,7 +136,7 @@ const PromotionPage = (props) => {
         </Col>
         <Col md={12} className={'mt-4 ml-3 mr-3'} >
           My Promotion Link
-          <span style={{ float: 'right', textDecoration: 'underline', color: "#6a82fb" }} className={'mr-5'}> https://www.shoptraders.in/signup/{bonus.ref_code} </span>
+          <span style={{ float: 'right', textDecoration: 'underline', color: "#6a82fb" }} className={'mr-5'}> https://www.lotterymall247.com/signup/{bonus.ref_code} </span>
         </Col>
         <Col md={12} style={{ textAlign: 'center' }} className={'mt-3'}>
           <Button simple color="success" onClick={copyLink} style={{ fontWeight: '500' }} > Copy Link </Button>
