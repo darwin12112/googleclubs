@@ -567,7 +567,7 @@ class AuthForm extends React.Component {
                       </a>
                         <br />
                         <br />
-                        <a href="https://t.me/lotterymall247">
+                        <a href="https://t.me/shoptraders990">
                           Contact US
                       </a>
 
