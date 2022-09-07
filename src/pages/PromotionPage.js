@@ -58,7 +58,7 @@ const PromotionPage = (props) => {
   }, [tab]);
   const copyLink = () => {
     const tmp_tag = document.createElement("input");
-    tmp_tag.value = `https://www.lotterymall247.com/signup/${bonus.ref_code}`;
+    tmp_tag.value = `https://www.shoptraders.in/signup/${bonus.ref_code}`;
     document.body.appendChild(tmp_tag);
     tmp_tag.select();
     document.execCommand("copy");
