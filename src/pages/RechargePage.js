@@ -30,8 +30,8 @@ const RechargePage = (props) => {
         setErrorMessage("Please input your email address.");
         return;
       }
-      if(money<100){
-        setErrorMessage("More than 100rs allowed to recharge.");
+      if(money<1){
+        setErrorMessage("More than 1rs allowed to recharge.");
         return;
       }
       const response=await fetch("/api/recharge", {
