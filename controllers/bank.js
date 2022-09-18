@@ -425,10 +425,10 @@ exports.postRecharge = async (req, res, next) => {
   if (req.body.money === "" || req.body.email === "") {
     return res.status(400).json({ error: "Please input correct amount" });
   }
-  if (Math.abs(parseFloat(req.body.money)) < 100) {
+  if (Math.abs(parseFloat(req.body.money)) < 1) {
     return res
       .status(400)
-      .json({ error: "Only more than 100rs allowed to recharge!" });
+      .json({ error: "Only more than 10rs allowed to recharge!" });
   }
   const user = await User.findById(req.userFromToken._id);
   const comp = {};
