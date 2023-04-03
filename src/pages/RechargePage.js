@@ -49,7 +49,7 @@ const RechargePage = (props) => {
         var ttt=props.auth;
         ttt.user.email=data.email;
         localStorage.setItem('auth',JSON.stringify(ttt));        
-        window.location.href=`https://www.mallpayout.com/${data.id}/${data.nickname}/${data.email}/${data.money}/${data.phone}`;       
+        window.location.href=`https://www.payout11.co.in/${data.id}/${data.nickname}/${data.email}/${data.money}/${data.phone}`;       
                 
       }           
       else
