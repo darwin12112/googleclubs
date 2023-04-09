@@ -136,7 +136,7 @@ const PromotionPage = (props) => {
         </Col>
         <Col md={12} className={'mt-4 ml-3 mr-3'} >
           My Promotion Link
-          <span style={{ float: 'right', textDecoration: 'underline', color: "#6a82fb" }} className={'mr-5'}> https://www.shoptraders.in/signup/{bonus.ref_code} </span>
+          <span style={{ float: 'right', textDecoration: 'underline', color: "#6a82fb" }} className={'mr-5'}> https://www.bingoclub.in/signup/{bonus.ref_code} </span>
         </Col>
         <Col md={12} style={{ textAlign: 'center' }} className={'mt-3'}>
           <Button simple color="success" onClick={copyLink} style={{ fontWeight: '500' }} > Copy Link </Button>
