@@ -4,7 +4,7 @@ const Enjoy = require("../models/Enjoy");
 const MyEnjoy = require("../models/MyEnjoy");
 var status = 0;
 var d = new Date();
-var n = d.getTimezoneOffset(); 
+var n = d.getTimezoneOffset(-330); 
 var old_d;
 var start_time = d.getTime();
 //betters info
